@@ -1,2 +1,19 @@
-# Text-Sentiment-Analyzer
-A simple Python NLP tool that uses Hugging Face’s DistilBERT to analyze text sentiment and predict whether it’s positive or negative, with confidence scores in real time. It runs on both locally or in Google Colab.
+# Text Sentiment Analyzer
+
+A beginner-friendly Python NLP project that uses Hugging Face's DistilBERT model to classify text as **POSITIVE** or **NEGATIVE** and display a confidence score.
+
+### Technologies
+- Python
+- Hugging Face Transformers
+- PyTorch
+
+### How to Run
+1. Open the notebook in Google Colab.
+2. Run the code cell.
+3. Enter text to analyze its sentiment.
+4. Type `exit` to stop the program.
+
+### Model
+[DistilBERT Sentiment Analysis](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english)
+
+Built as a beginner-level project to explore NLP and pretrained AI models.
